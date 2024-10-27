@@ -1,0 +1,245 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background-color: #efefef;
+  font-family: "Quicksand", sans-serif;
+}
+
+/* container class */
+
+.container {
+  width: 1400px;
+  margin: 0 auto;
+}
+
+/* navigation bar design start */
+nav {
+  width: 100%;
+  height: 100px;
+  background-color: #151d38;
+  color: #fff;
+}
+
+.nav-container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.nav-item-container {
+  margin-left: auto;
+  display: flex;
+}
+.brand h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.nav-item {
+  margin-left: 24px;
+}
+
+.nav-item a,
+.nav-item a:visited,
+.nav-item a:active,
+.nav-item a:hover {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.profile-card-container {
+  width: 100%;
+  height: 470px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  border-radius: 10px;
+  display: flex;
+}
+.profile-pic-container {
+  width: 470px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-squre-container {
+  width: 370px;
+  height: 370px;
+  border: 5px solid #151d38;
+  border-radius: 10px;
+  /* margin-top: 50px;
+margin-left: 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.image-circle-container {
+  width: 305px;
+  height: 305px;
+  border: 5px solid #151d38;
+  border-radius: 50%;
+  /* margin-top: 32px;
+  margin-left: 32px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image-circle-container img {
+  width: 100%;
+  height: 100%;
+}
+.profile-info-container {
+  width: 930px;
+}
+.profile-info {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.profile-name {
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #333;
+}
+.profile-title {
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: 0.04em;
+  text-transform: capitalize;
+  color: #555;
+  margin-top: 5px;
+}
+.social-links{
+margin-top: 50px;
+}
+.social-links img{
+  margin-right: 14px;
+}
+.skill-chips{
+  display: flex;
+  margin-top: 20px;
+}
+.skill-chip{
+  background: #151d38;
+  color: #fff;
+  padding: 6px 7px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 14px;
+}
+.profile-bio{
+  margin-top: 60px;
+  color: #555;
+  margin-right: 150px;
+}
+/* skill */
+.my-skills-section{
+  width: 100%;
+  height: 490px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  border-radius: 10px;
+  padding: 35px 40px;
+
+}
+.section-heading{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #333;
+  margin-bottom: 15px;
+  /* margin-top: 35px;
+  margin-left: 35px; */
+}
+.icon-container {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.skills-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.skill-item-container{
+  display: flex;
+  margin-top: 20px;
+}
+.text-container{
+  margin-left: 40px;
+
+}
+.text-container h1{
+  font-weight: bold;
+  font-size: 24px;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+.text-container h3{
+  font-weight: 500;
+  font-size: 18px;
+  font-style: normal;
+  letter-spacing: 0.04em;
+  color: #555;
+  margin-top: 5px;
+}
+.text-container p{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  color: #555;
+  margin-top: 12px;
+}
+.my-expereince-section{
+  width: 100%;
+  height: 490px;
+  margin-top: 50px;
+  background-color: #fff;
+  box-shadow: 0 0 5px rgba(0,0,0,.25);
+  border-radius: 10px;
+  padding: 35px 40px;
+
+}
+.experience-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.experience-item h1{
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+.experience-item h3{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0.04em;
+  color: #333;
+}
+.experience-item p{
+  width: 446;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  color: #555;
+}
+.experience-item{
+margin-top: 30px;
+}
